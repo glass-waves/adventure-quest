@@ -5,7 +5,7 @@
 1) User input
     * name
     * choose a character
-        * each character comes with a set amount of _sanity_ and 0 _deprogrammed_.
+        * each character comes with a set amount of _sanity_, _media_ _exposure_ and 0 _deprogrammed_.
     * a submit button
         * on submit, user data will be save in local storage as properties in a USER object and the user will be taken to the map page. 
         * the properties of the USER are as follows

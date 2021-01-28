@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <h1>Qanon De-Programming Game</h1>
+    </header>
+    <p>Description of game here</p>
+    <form id='info-form'>
+        <label>
+            Please enter a name for your character: 
+            <input type="text" name="name-input">
+        </label>
+        <div id="character-choices">
+            <label>
+                Activist 
+                <input type="radio" name="character" value="activist">
+            </label>
+            <label>
+                Liberal Suburbanite
+                <input type="radio" name="character" value="suburbanite">
+            </label>
+            <label>
+                Schoolteacher
+                <input type="radio" name="character" value="schoolteacher">
+            </label>
+            <label>
+                AOC
+                <input type="radio" name="character" value="aoc">
+            </label>    
+        </div>
+        <button id="submit-button">Create Character</button>
+    </form>
+    <script type="module" src="../app/home.js"></script>
+</body>
+
+</html>
