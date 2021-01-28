@@ -14,7 +14,7 @@ const shaman = {
             result: 'His organic food hardened abs reject your meager attempt at violent intervention. You run away in fear.',
             sanity: -20,
             media: 20,
-            deprogram: false
+            deprogram: 0
         },
         {
             id: 'petty',
@@ -22,7 +22,7 @@ const shaman = {
             result: " He accepts and is quieted by your produce. You told him it was organic, it wasn't. You walk away snickering, not victorious, but satisfied.",
             sanity: 20,
             media: 0,
-            deprogram: false
+            deprogram: 0
         },
         {
             id: 'reason',
@@ -30,7 +30,7 @@ const shaman = {
             result: 'The shaman responds with lies so absurd that you cannot prove that they are wrong. This sends you into a rage spiral and you end up punching a metallic banana art exhibit until your hand bleeds and you have attracted a crowd of onlookers. ',
             sanity: -40,
             media: 20,
-            deprogram: false
+            deprogram: 0
         },
         {
             id: 'convince',
@@ -38,7 +38,7 @@ const shaman = {
             result: 'This seems to have a real affect on the shaman. He stares in the the distance as if his mind is slowly turning around in his skull. For all you know it is. You leave, exhausted, yet successful.',
             sanity: -10,
             media: 0,
-            deprogram: true
+            deprogram: 1
         },
     ],
 };
@@ -59,7 +59,7 @@ const powell = {
             result: 'You snatch the bottle of rum out of her hands, open it, take a huge swig and swing for the fences. Unfortunately she has squid like reflexes and grace, easily dodging your attack. She has you arrested for attempted assault, demands to prosecute the case and bungles it so badly that it gets tossed out of court.',
             sanity: -20,
             media: 40,
-            deprogram: false
+            deprogram: 0
         },
         {
             id: 'convince',
@@ -67,7 +67,7 @@ const powell = {
             result: `You bring up the theory that Woody Harrelson's father was the one who actually murdered judge Wood, a case she prosecuted years prior. She seems adequately redirected. You emerge from the store victorious, bud in hand. `,
             sanity: 0,
             media: 0,
-            deprogram: true
+            deprogram: 1
         },
         {
             id: 'petty',
@@ -75,6 +75,7 @@ const powell = {
             result: 'She laughs and walks away, leaving you fuming. You lick the liquor shelf and it slowly tips over, shattering all of the bottles on the floor. Someone records this on their phone, posts it to Tik Tok and within minutes you have gone viral.',
             sanity: -20,
             media: 40,
+            deprogram: 0
         },
         {
             id: 'reason',
@@ -82,7 +83,7 @@ const powell = {
             result: `Sydney launches into a rant about how poll workers were using inserting Flaming Hot Cheetos into the voting machines to alter the vote count. "Why would all the Dominion workers have orange fingers huh?" You don't even know where to start with that one. You decide to also grab a bottle of whiskey on your way out to try and forget about it. `,
             sanity: -20,
             media: 0,
-        
+            deprogram: 0
         },
     ],
 };

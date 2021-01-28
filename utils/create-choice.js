@@ -11,7 +11,6 @@ export function createChoice(choice) {
     const choiceText = document.createElement('span');
     choiceText.textContent = choice.description;
     label.append(choiceText);
-
-
+    
     return label;
 }
