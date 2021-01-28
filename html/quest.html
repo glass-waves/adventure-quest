@@ -12,14 +12,25 @@
     <link rel="stylesheet" href="../styles/home.css">
     <link rel="stylesheet" href="../styles/map.css">
 
-    <title>Home</title>
+    <title>Quest</title>
 </head>
 
 <body>
     <header>
         <h1>Qanon De-Programming Game</h1>
     </header>
-    <h1>Quest Page!</h1>
+    <h1 id="quest-title"></h1>
+    <div class="image-container">
+        <img src="#" alt="" id="quest-image">
+    </div>
+    <p id="quest-description"></p>
+    <form id="choices">
+        <div id="choices-div"></div>
+        <button>Submit</button>
+    </form>
+    <div id="results" class="hidden">
+        <button id="back">Back to Map</button>
+    </div>
     <script type="module" src="../app/quest.js"></script>
 </body>
 

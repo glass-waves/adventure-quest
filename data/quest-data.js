@@ -1,9 +1,10 @@
 const shaman = {
     id: 'california',
     title: 'A Festy Questy',
+    image: '',
     position: {
-        top: '300px',
-        left: '70px'
+        top: '50%',
+        left: '7%'
     },
     description: "You are attending Coachella music festival. In between watching Daft Punk and Beyonce, you come across a man in a horned helmet, a furry vest and bad tattoos on his exposed torso. You don't pay much mind, as this is par for the course at a music festival. He asks you if want to take a red pill with him. You agree, assuming the worst that could happen is a terrible, ego crushing, nightmare of a trip on some gen Z research chemical. You soon realize it is far, far worse as he proceeds to violently attempt to convince you of a worldwide kabal of child trafficking Democrats led by none other than Hilary Clinton. You cant take this any longer so you: ",
     choices: [
@@ -45,9 +46,10 @@ const shaman = {
 const powell = {
     id: 'virginia',
     title: 'Tussle with the Kraken',
+    image: '',
     position: {
-        top: '259px',
-        left: '824px'
+        top: '45%',
+        left: '85%'
     },
     description: `You are in Virginia visiting your parents. They ask you to run to the supermarket to grab some more Budweiser for the fridge. As you puruse the isles you come across the beer and liquor section. Just as you reach into the cool for the beer, you hear a loud muttering behind you. Sydney Powell is holding a bottle of Kraken rum, muttering "How dare they try and steal my thunder, I am the kraken, I'll see them in court!`,
     choices: [
@@ -86,11 +88,12 @@ const powell = {
 };
 
 const rudy = {
-    id: '',
+    id: 'new-york',
     title: 'A Run in with Rudy',
+    image: '',
     position: {
-        top: '166px',
-        left: '919px'
+        top: '30%',
+        left: '90%'
     },
     description: '',
     choices: [
@@ -126,11 +129,12 @@ const rudy = {
 };
 
 const jones = {
-    id: '',
+    id: 'texas',
     title: 'Alex Jones is Terrifying',
+    image: '',
     position: {
-        top: '370px',
-        left: '204px'
+        top: '60%',
+        left: '20%'
     },
     description: '',
     choices: [
@@ -166,11 +170,12 @@ const jones = {
 };
 
 const greene = {
-    id:'',
+    id:'georgia',
     title: 'The Greene Mile',
+    image: '',
     position: {
-        top: '413px',
-        left: '800px'
+        top: '60%',
+        left: '75%'
     },
     description: '',
     choices: [

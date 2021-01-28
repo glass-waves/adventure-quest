@@ -9,6 +9,6 @@
     height: 70%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
+    background-size:100%;
+    margin: 50px auto
 }

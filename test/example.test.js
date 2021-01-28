@@ -4,7 +4,8 @@
 
 import { getUser, updateStats } from '../local-storage/user-local.js';
 import { generateLocations } from '../utils/generate-locations.js';
-
+import { quests } from '../data/quest-data.js';
+import { createChoice } from '../utils/create-choice.js';
 const test = QUnit.test;
 
 //TEST FOR getUser() function
@@ -61,3 +62,13 @@ test('should return a div with 5 spans inside, each a title of a quest', (expect
 
     expect.equal(actual.outerHTML, expected);
 });
+
+
+//test for createChoice() function 
+test('when given a single choice from a quest choice array, it should return a label with a radio button and a span inside', (expect) => {
+    const quest = quests[0];
+
+    const actual = createChoice(quest.choices[0]);
+    const expected = `<label class=\"choice\"><input type=\"radio\" name=\"choice\" value=\"fight\"><span>You take off his helmet and attempt to gore him with it to get him to stop talking.</span></label>`;
+    expect.equal(actual.outerHTML, expected);
+})
