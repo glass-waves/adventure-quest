@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-escape */
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
 
@@ -73,4 +74,4 @@ test('when given a single choice from a quest choice array, it should return a l
     const actual = createChoice(quest.choices[0]);
     const expected = `<label class=\"choice\"><input type=\"radio\" name=\"choice\" value=\"fight\"><span>You take off his helmet and attempt to gore him with it to get him to stop talking.</span></label>`;
     expect.equal(actual.outerHTML, expected);
-})
+});

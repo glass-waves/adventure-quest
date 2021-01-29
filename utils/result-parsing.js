@@ -1,12 +1,12 @@
 import { getUser } from '../local-storage/user-local.js';
 
-function sanityParse(sanityLevel){
+function sanityParse(sanityLevel) {
     let sanityString = '';
-    if(sanityLevel <= 0) {
+    if (sanityLevel <= 0) {
         sanityString = ' you lost your marbles and may never find them again.';
     } else if (sanityLevel <= 30) {
         sanityString = ' you are one more Fox News broadcast away from insanity, proceed with caution.';
-    } else if (sanityLevel <=70) {
+    } else if (sanityLevel <= 70) {
         sanityString = ' your mental health fared surprisingly well considering the circumstances.';
     } else {
         sanityString = ' your mind is like a steel trap, impenetrable by even the most seasoned insurrectionist.';
@@ -14,13 +14,13 @@ function sanityParse(sanityLevel){
     return sanityString;
 }
 
-function mediaParse(mediaLevel){
+function mediaParse(mediaLevel) {
     let mediaString = '';
-    if(mediaLevel <= 0) {
+    if (mediaLevel <= 0) {
         mediaString = ' You went almost completely undetected by the media.';
     } else if (mediaLevel <= 30) {
         mediaString = " Your name made it on to some low level conservative twitters, though don't worry, they are probably just russian bots.";
-    } else if (mediaLevel <=70) {
+    } else if (mediaLevel <= 70) {
         mediaString = ' You got doxed by Andy Ngo and the Proud Boys know you by name. I would be careful where you go alone until this thing blows over.';
     } else {
         mediaString = ' Tucker Carlson is calling for your beheading on cable news. You managed to make a real fuss, congrats I guess?';
@@ -33,7 +33,7 @@ function deprogramParse(deprogrammed) {
     return deprogrammedString;
 }
 
-export function createResultString(){
+export function createResultString() {
     const currentStats = getUser();
     const resultsPara = document.createElement('p');
 
