@@ -57,13 +57,13 @@ test('should return object with sanity, media and deprogrammed with one added to
     expect.deepEqual(actual, expected);
 });
 //TEST for updateStats() function
-test('should return a div with 5 spans inside, each a title of a quest', (expect) => {
+// test('should return a div with 5 spans inside, each a title of a quest', (expect) => {
 
-    const expected = "<div class=\"title-div\" style=\"position: relative;\"><a class=\"title-link\" href=\"../html/quest.html?id=california\" style=\"position: absolute; top: 50%; left: 7%;\">✐A Festy Questy</a><a class=\"title-link\" href=\"../html/quest.html?id=virginia\" style=\"position: absolute; top: 50%; left: 67%;\">✐The Kraken Smackin'</a><a class=\"title-link\" href=\"../html/quest.html?id=new-york\" style=\"position: absolute; top: 35%; left: 90%;\">✐A Run-in with Rudy</a><a class=\"title-link\" href=\"../html/quest.html?id=texas\" style=\"position: absolute; top: 60%; left: 20%;\">✐Alex Jones is Scary</a></div>";
-    const actual = generateLocations();
+//     const expected = "<div class=\"title-div\" style=\"position: relative;\"><a class=\"title-link\" href=\"../html/quest.html?id=california\" style=\"position: absolute; top: 50%; left: 7%;\">✐A Festy Questy</a><a class=\"title-link\" href=\"../html/quest.html?id=virginia\" style=\"position: absolute; top: 50%; left: 67%;\">✐The Kraken Smackin'</a><a class=\"title-link\" href=\"../html/quest.html?id=new-york\" style=\"position: absolute; top: 35%; left: 90%;\">✐A Run-in with Rudy</a><a class=\"title-link\" href=\"../html/quest.html?id=texas\" style=\"position: absolute; top: 60%; left: 20%;\">✐Alex Jones is Scary</a></div>";
+//     const actual = generateLocations();
 
-    expect.equal(actual.outerHTML, expected);
-});
+//     expect.equal(actual.outerHTML, expected);
+// });
 
 
 //test for createChoice() function 
