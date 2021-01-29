@@ -46,7 +46,7 @@ export function checkForGameOver() {
         alert('These people have made you lose your damn mind. Proceed to you results.');
         window.location = './results.html';
     }
-    if (currentUserStats.completed.length === 5) {
+    if (currentUserStats.completed.length === 4) {
         alert('Congrats, you have made it through without going completely insane. Proceed to your results.');
     }
 }
