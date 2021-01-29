@@ -46,8 +46,9 @@ export function checkForGameOver() {
         alert('These people have made you lose your damn mind. Proceed to you results.');
         window.location = './results.html';
     }
-    if (currentUserStats.completed.length === 4) {
+    if (currentUserStats.completed.newyork === true && currentUserStats.completed.virginia === true && currentUserStats.completed.texas === true && currentUserStats.completed.california === true) {
         alert('Congrats, you have made it through without going completely insane. Proceed to your results.');
+        window.location = './results.html';
     }
 }
 

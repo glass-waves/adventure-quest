@@ -89,7 +89,7 @@ const powell = {
 };
 
 const rudy = {
-    id: 'new-york',
+    id: 'newyork',
     title: 'A Run-in with Rudy',
     image: 'rudy.jpeg',
     position: {
