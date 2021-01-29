@@ -10,7 +10,7 @@ export function generateLocations() {
     for (const quest of quests) {
         const titleLink = document.createElement('a');
         titleLink.classList.add('title-link');
-        titleLink.textContent = quest.title;
+        titleLink.textContent = String.fromCharCode(10000) + quest.title;
         titleLink.style.position = 'absolute';
         titleLink.style.top = quest.position.top;
         titleLink.style.left = quest.position.left;

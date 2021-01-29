@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
     <title>Home</title>
@@ -14,17 +17,22 @@
 
 <body>
     <header>
-        <h1>Qanon De-Programming Game</h1>
+        <h1>QAnon Deprogramming Game</h1>
     </header>
-    <p>Description of game here</p>
+    <p class="game-description">In this game you will attempt to convert QAnon conspiracy spewing maniacs back to
+        reality in hopes of saving the country. As you progress through the game, your decisions will affect both your
+        <i>sanity</i> and your <i>media exposure</i>. You start the game with set amount of sanity. The maniacal cult
+        QAnon cult members will test your mental fortitude with their absurd theories and nonsense arguments. If your
+        <b>sanity</b> gets too low, you will completely lose it and the game will end. Try to convert as many of these
+        high profile nuts as you can. Good luck!</p>
     <form id='info-form'>
         <label>
-            Please enter a name for your character: 
+            Please enter a name for your character:
             <input type="text" name="name-input">
         </label>
         <div id="character-choices">
             <label>
-                Activist 
+                Activist
                 <input type="radio" name="character" value="activist">
             </label>
             <label>
@@ -38,7 +46,7 @@
             <label>
                 AOC
                 <input type="radio" name="character" value="aoc">
-            </label>    
+            </label>
         </div>
         <button id="submit-button">Create Character</button>
     </form>

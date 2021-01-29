@@ -51,6 +51,7 @@ myForm.addEventListener('submit', (e) => {
     resultsDiv.prepend(results);
     //show results div by removing hidden class
     resultsDiv.classList.remove('hidden');
+    resultsDiv.style.fontStyle = 'italic';
     //add hidden class to choices
     choicesForm.classList.add('hidden');
     //update stats

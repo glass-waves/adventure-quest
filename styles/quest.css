@@ -4,3 +4,41 @@
 .hidden {
     display:none;
 }
+
+#quest-description {
+    width: 70%;
+    margin: 60px auto;
+}
+
+#choices {
+    font-weight: 600;
+    width: 70%;
+    margin: 20px auto;
+}
+label {
+    margin-top: 10px;
+}
+#results{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.image-container {
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+#quest-image{
+    max-width: 700px;
+}
+#quest-title {
+    position: absolute;
+    left: 47%;
+    bottom: 0;
+    transform: translateX(-50%);
+    font-size: 180px;
+    font-weight: 600;
+    max-width: 40%;
+    color: white;
+    line-height: .8em;
+}
