@@ -39,9 +39,7 @@ a {
     font-size: 18px;
     color: black;
 }
-a:hover {
-    color:blue;
-}
+
 .game-description {
     width: 50%;
     margin: 100px auto 100px auto;

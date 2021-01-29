@@ -1,3 +1,5 @@
+import { capitalizeFirstLetter } from '../utils/find-by-id.js';
+
 const USER = 'USER';
 
 export function setUser(user) {
@@ -28,7 +30,7 @@ export function displayCurrentStats() {
     const characterDeprogrammed = document.createElement('p');
 
     characterName.textContent = `Name: ${currentUserObject.name}`;
-    characterClass.textContent = `Character: ${currentUserObject.character}`;
+    characterClass.textContent = `Character:${capitalizeFirstLetter(currentUserObject.character)}`;
     characterSanity.textContent = `Sanity Remaining: ${currentUserObject.sanity}`;
     characterMedia.textContent = `Media Exposure: ${currentUserObject.media}`;
     characterDeprogrammed.textContent = `Loonies Deprogrammed: ${currentUserObject.deprogrammed}`;
@@ -48,3 +50,4 @@ export function checkForGameOver() {
         alert('Congrats, you have made it through without going completely insane. Proceed to your results.');
     }
 }
+

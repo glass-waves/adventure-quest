@@ -5,3 +5,9 @@ export function findById(array, id){
         }
     }
 }
+
+
+export function capitalizeFirstLetter(nameInput) {
+    const capitalizedName = nameInput.charAt(0).toUpperCase() + nameInput.slice(1);
+    return capitalizedName;
+}

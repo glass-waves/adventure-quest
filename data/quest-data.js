@@ -6,7 +6,7 @@ const shaman = {
         top: '50%',
         left: '7%'
     },
-    description: "You are attending Coachella music festival. In between watching Daft Punk and Beyonce, you come across a man in a horned helmet, a furry vest and bad tattoos on his exposed torso. You don't pay much mind, as this is par for the course at a music festival. He asks you if want to take a red pill with him. You agree, assuming the worst that could happen is a terrible, ego crushing, nightmare of a trip on some gen Z research chemical. You soon realize it is far, far worse as he proceeds to violently attempt to convince you of a worldwide kabal of child trafficking Democrats led by none other than Hilary Clinton. You cant take this any longer so you: ",
+    description: "You are attending Coachella music festival. In between watching Daft Punk and Beyonce, you come across a man in a horned helmet, a furry vest and bad tattoos on his exposed torso. You don't pay much mind, as this is par for the course at a music festival. He asks you if want to take a red pill with him. You agree, assuming the worst that could happen is a terrible, ego crushing, nightmare of a trip on some gen-Z research chemical. You soon realize it is far, far worse as he proceeds to violently attempt to convince you of a worldwide kabal of child trafficking Democrats led by none other than Hilary Clinton. You cant take this any longer so you: ",
     choices: [
         {
             id: 'fight',
@@ -45,13 +45,13 @@ const shaman = {
 
 const powell = {
     id: 'virginia',
-    title: 'The Kraken Smackin',
+    title: `The Kraken Smackin'`,
     image: 'sydney.jpeg',
     position: {
-        top: '45%',
+        top: '50%',
         left: '67%'
     },
-    description: `You are in Virginia visiting your parents. They ask you to run to the supermarket to grab some more Budweiser for the fridge. As you puruse the isles you come across the beer and liquor section. Just as you reach into the cooler for the beer, you hear a loud muttering behind you. Sydney Powell is holding a bottle of Kraken rum, muttering "How dare they try and steal my thunder, I am the kraken, I'll see them in court!`,
+    description: `You are in Virginia visiting your parents. They ask you to run to the supermarket to grab some more Budweiser for the fridge. As you peruse the isles you come across the beer and liquor section. Just as you reach into the cooler for the beer, you hear a loud muttering behind you. To your surprise, estranged attorney, and failed crow magic practitioner Sydney Powell is directly behind you holding a bottle of Kraken rum, muttering "How dare they try and steal my thunder, I am the kraken, I'll see them in court!"`,
     choices: [
         {
             id: 'fight',
@@ -90,7 +90,7 @@ const powell = {
 
 const rudy = {
     id: 'new-york',
-    title: 'A Run in with Rudy',
+    title: 'A Run-in with Rudy',
     image: 'rudy.jpeg',
     position: {
         top: '35%',
@@ -101,7 +101,7 @@ const rudy = {
         {
             id: 'fight',
             description: 'You happen to have some wild caught trout from the grocery store in the car. You run, get it and use it to lure Rudy into your Subaru where you quickly engage the child locks, trapping Rudy inside.',
-            result: `Rudy uses his razor sharp claws to cut a perfect circle out of your car window. He climbs through the whole, rage in his eyes and coming straight for you. Just as he is about to slip through the hole, his gut becomes jammed in the opening. "Goodbye Rudy" you say with a smile. He grunts in your direction like a constipated badger.`,
+            result: `Rudy uses his razor sharp claws to cut a perfect circle out of your car window. He climbs through the hole, rage in his eyes and coming straight for you. Just as he is about to slip through the hole, his gut becomes jammed in the opening. "Goodbye Rudy" you say with a smile. He grunts in your direction like a constipated badger.`,
             sanity: -20,
             media: 20,
             deprogram: 0
@@ -117,7 +117,7 @@ const rudy = {
         {
             id: 'petty',
             description: `You point out that the plants are starting to wilt from his toxic hair product seeping into the soil. You tell him if he's here scouting for the next press conference, he better keep the foliage healthy.`,
-            result: 'Rudy explains that contrary to common belief, the black liquid seen dripping down his skull in the news was actually fluid draining from small holes he had drilled in his head in an attempt to off-gass all the bullshit he comes up with. You realize he only had a few weeks to live so you leave him alone and just tweet about it. ',
+            result: 'Rudy explains that contrary to common belief, the black liquid seen dripping down his skull in the news was actually fluid draining from small holes he had drilled in his head in an attempt to off-gass all the bullshit he comes up with. You realize he only has a few weeks to live so you leave him alone and just tweet about it. ',
             sanity: -30,
             media: 30,
             deprogram: 0
@@ -125,7 +125,7 @@ const rudy = {
         {
             id: 'convince',
             description: 'You simply offer him a $20 dollar bill to stop being a maniac. ',
-            result: 'Suprisingly this works! He almost bargains himself down to a ten, then claims you are trying to rip him off before pausing, taking the money and is never heard from again.',
+            result: 'Surprisingly this works! He almost bargains himself down to a ten, then claims you are trying to rip him off before pausing, taking the money and is never heard from again.',
             sanity: 0,
             media: 0,
             deprogram: 1
@@ -141,88 +141,88 @@ const jones = {
         top: '60%',
         left: '20%'
     },
-    description: `You are visiting Texas to do some freelance, crowd-sourced oil prospecting through the gig app Geysr. You are cruising over the Texan desert on a ATV, holding your phone up like a divining rod when your vehicle smashes into something solid. You are thrown from your seat, and as you fly through the air you quickly check your Instagram and Twitter accounts just to be sure you didn't miss anything before slamming into a dirt. You hear a blood curdling roar and realized you had just run into infamous talk show host and   `,
+    description: `You are visiting Texas to do some freelance, crowd-sourced oil prospecting through the gig app Geysr. Cruising over the Texan desert on a ATV, holding your phone up like a divining rod, your vehicle smashes into something solid. You are thrown from your seat, and as you fly through the air you quickly check your Instagram and Twitter accounts just to be sure you didn't miss anything before slamming into a dirt. You hear a blood curdling roar and realize you have just run into infamous talk show host and sad comic book villain Alex Jones.`,
     choices: [
         {
-            id: '',
-            description: '',
-            result: '',
+            id: 'convince',
+            description: 'Tell Alex that you just ran into some extraterrestrials about a mile away. They told you that to spread the word of a new internet disciple named "W" that conspires to spread love across the universe. ',
+            result: 'Alex takes the bait and is thoroughly into the idea. He asks you to bring the aliens to his studio so he can have them on his radio show and scream at them for no reason',
             sanity: 0,
-            media: 0,
+            media: 20,
+            deprogram: 1
+        },
+        {
+            id: 'fight',
+            description: 'Pinch his nipples and for the best.',
+            result: 'This actually seems to soothe him. He puts his thumb in his mouth and seems to regress to an infant stage. When you leave he is fast asleep with a tumbleweed as a pillow.',
+            sanity: -10,
+            media: 10,
             deprogram: 0
         },
         {
-            id: '',
-            description: '',
-            result: '',
-            sanity: 0,
-            media: 0,
+            id: 'petty',
+            description: 'You tell him that you think you can scream loader than he can.',
+            result: 'He challenges you to a scream off and invites all of his alt-right Youtube buddies. You agree. You both take turns screaming until blood erupts from his throat like an oil geyser. You wonder if you might be able to trick your oil prospecting app into giving you credit for an oil geyser. Assuming you have defeated him, you smile victoriously. Alex laughs and says "Oh this, it happens all the time, your turn snowflake." You sheepishly concede and leave on your damaged ATV.',
+            sanity: -30,
+            media: 30,
             deprogram: 0
         },
         {
-            id: '',
-            description: '',
-            result: '',
-            sanity: 0,
-            media: 0,
-            deprogram: 0
-        },
-        {
-            id: '',
-            description: '',
-            result: '',
-            sanity: 0,
+            id: 'reason',
+            description: `You try your best to reason with him.`,
+            result: 'Alex seems unfamiliar with the concept and generally disinterested.',
+            sanity: -20,
             media: 0,
             deprogram: 0
         },
     ],
 };
 
-const greene = {
-    id: 'georgia',
-    title: 'The Greene Pile',
-    image: 'greene.jpg',
-    position: {
-        top: '60%',
-        left: '65%'
-    },
-    description: '',
-    choices: [
-        {
-            id: '',
-            description: '',
-            result: '',
-            sanity: 0,
-            media: 0,
-        },
-        {
-            id: '',
-            description: '',
-            result: '',
-            sanity: 0,
-            media: 0,
-        },
-        {
-            id: '',
-            description: '',
-            result: '',
-            sanity: 0,
-            media: 0,
-        },
-        {
-            id: '',
-            description: '',
-            result: '',
-            sanity: 0,
-            media: 0,
-        },
-    ],
-};
+// const greene = {
+//     id: 'georgia',
+//     title: 'The Greene Pile',
+//     image: 'greene.jpg',
+//     position: {
+//         top: '60%',
+//         left: '65%'
+//     },
+//     description: '',
+//     choices: [
+//         {
+//             id: '',
+//             description: '',
+//             result: '',
+//             sanity: 0,
+//             media: 0,
+//         },
+//         {
+//             id: '',
+//             description: '',
+//             result: '',
+//             sanity: 0,
+//             media: 0,
+//         },
+//         {
+//             id: '',
+//             description: '',
+//             result: '',
+//             sanity: 0,
+//             media: 0,
+//         },
+//         {
+//             id: '',
+//             description: '',
+//             result: '',
+//             sanity: 0,
+//             media: 0,
+//         },
+//     ],
+// };
 
 export const quests = [
     shaman,
     powell,
     rudy,
     jones,
-    greene
+    // greene
 ];
