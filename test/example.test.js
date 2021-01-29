@@ -4,7 +4,7 @@
 
 
 import { getUser, updateStats } from '../local-storage/user-local.js';
-import { generateLocations } from '../utils/generate-locations.js';
+// import { generateLocations } from '../utils/generate-locations.js';
 import { quests } from '../data/quest-data.js';
 import { createChoice } from '../utils/create-choice.js';
 const test = QUnit.test;
